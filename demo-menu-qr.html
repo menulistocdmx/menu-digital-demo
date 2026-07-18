@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17392d">
+  <title>Casa Menta — Menú</title>
+  <style>
+    :root{--ink:#17392d;--cream:#fbf5e8;--lime:#dceb88;--coral:#f47c5e;--muted:#66756f}
+    *{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+    header{padding:52px 20px 36px;background:var(--ink);color:white;text-align:center;border-radius:0 0 38px 38px}
+    .eyebrow{margin:0 0 8px;text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:var(--lime)}
+    h1{font:700 clamp(38px,9vw,66px)/1 Georgia,serif;margin:0}.tag{max-width:480px;margin:14px auto 0;color:#dce7e2}
+    main{max-width:760px;margin:auto;padding:26px 18px 100px}.nav{display:flex;gap:8px;overflow:auto;padding:4px 0 20px;position:sticky;top:0;background:linear-gradient(var(--cream) 75%,transparent);z-index:2}
+    .nav a{white-space:nowrap;text-decoration:none;color:var(--ink);background:white;padding:10px 14px;border-radius:999px;box-shadow:0 3px 14px #17392d12}
+    section{scroll-margin-top:70px;margin:22px 0 35px}h2{font:700 28px Georgia,serif;margin:0 0 12px}.item{display:grid;grid-template-columns:1fr auto;gap:3px 20px;padding:15px 0;border-bottom:1px solid #17392d20}
+    .item h3{margin:0;font-size:17px}.price{font-weight:800;color:var(--coral)}.item p{grid-column:1/-1;margin:2px 0 0;color:var(--muted);font-size:14px}
+    .badge{display:inline-block;font:700 10px system-ui;padding:3px 6px;margin-left:5px;border-radius:5px;background:var(--lime);vertical-align:2px}
+    .cta{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);width:min(92%,520px);padding:15px;border:0;border-radius:16px;background:var(--coral);color:white;text-align:center;text-decoration:none;font-weight:800;box-shadow:0 12px 35px #17392d45}
+    footer{text-align:center;color:var(--muted);font-size:13px;padding:10px 0 35px}
+  </style>
+</head>
+<body>
+  <header><p class="eyebrow">Cocina fresca · Todos los días</p><h1>Casa Menta</h1><p class="tag">Ingredientes honestos, sabores vivos y un rinconcito hecho para quedarse.</p></header>
+  <main>
+    <nav class="nav"><a href="#desayunos">Desayunos</a><a href="#comida">Comida</a><a href="#bebidas">Bebidas</a></nav>
+    <section id="desayunos"><h2>Desayunos</h2>
+      <article class="item"><h3>Chilaquiles Menta <span class="badge">Favorito</span></h3><span class="price">$115</span><p>Salsa verde, frijoles, crema, queso y huevo al gusto.</p></article>
+      <article class="item"><h3>Toast de aguacate</h3><span class="price">$98</span><p>Pan artesanal, aguacate, jitomate rostizado y semillas.</p></article>
+      <article class="item"><h3>Hotcakes de limón</h3><span class="price">$105</span><p>Tres piezas, frutos rojos, miel y mantequilla.</p></article>
+    </section>
+    <section id="comida"><h2>Comida</h2>
+      <article class="item"><h3>Bowl del huerto</h3><span class="price">$129</span><p>Arroz, vegetales, garbanzo crujiente y aderezo cítrico.</p></article>
+      <article class="item"><h3>Torta de cochinita</h3><span class="price">$122</span><p>Pan brioche, cebolla encurtida, aguacate y salsa de la casa.</p></article>
+      <article class="item"><h3>Tacos de setas <span class="badge">Vegano</span></h3><span class="price">$110</span><p>Tres tacos con setas al pastor, piña y cilantro.</p></article>
+    </section>
+    <section id="bebidas"><h2>Bebidas</h2>
+      <article class="item"><h3>Limonada de albahaca</h3><span class="price">$48</span><p>Natural o mineral.</p></article>
+      <article class="item"><h3>Café de olla</h3><span class="price">$42</span><p>Canela y piloncillo.</p></article>
+    </section>
+    <footer>Precios en MXN · Ejemplo demostrativo</footer>
+  </main>
+  <a class="cta" href="mailto:menulistocdmx@outlook.com?subject=Quiero%20un%20men%C3%BA%20como%20este">Quiero un menú como este</a>
+</body>
+</html>
