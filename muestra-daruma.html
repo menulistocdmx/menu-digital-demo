@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Muestra conceptual — Daruma</title>
+  <style>
+    :root{--red:#b4202a;--ink:#1d2528;--paper:#fffaf1;--card:#fff;--muted:#687174;--line:#eadfce}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+    header,main,footer{max-width:760px;margin:auto;padding:22px}.notice{background:#fff1bf;border-bottom:1px solid #e6ce73;text-align:center;padding:10px 16px;font-size:13px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:900;font-size:23px;letter-spacing:.04em}.chip{color:var(--red);border:1px solid #e3a8ac;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800}
+    .hero{padding-top:38px;padding-bottom:30px}.eyebrow{color:var(--red);font-size:13px;font-weight:850;text-transform:uppercase;letter-spacing:.12em}h1{font-size:clamp(40px,10vw,70px);line-height:.98;margin:10px 0 18px;letter-spacing:-.045em}.lead{font-size:18px;color:var(--muted);max-width:600px}
+    nav{display:flex;gap:9px;overflow:auto;padding:4px 0 16px}nav a{white-space:nowrap;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-weight:700;font-size:13px}
+    section{scroll-margin-top:16px}h2{margin:30px 0 12px;font-size:25px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.item{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:17px}.item h3{margin:0 0 6px;font-size:17px}.item p{margin:0;color:var(--muted);font-size:14px}.price{display:block;margin-top:13px;color:var(--red);font-size:12px;font-weight:850}
+    .cta{position:sticky;bottom:12px;display:flex;justify-content:center;margin:32px 0 8px}.cta span{display:block;background:var(--red);color:#fff;padding:15px 20px;border-radius:13px;font-weight:850;box-shadow:0 10px 28px #7a111c40}.fine{text-align:center;color:var(--muted);font-size:12px}footer{text-align:center;color:var(--muted);font-size:12px;padding-bottom:40px}
+    @media(max-width:560px){.grid{grid-template-columns:1fr}header{align-items:flex-start}.hero{padding-top:24px}}
+  </style>
+</head>
+<body>
+  <div class="notice"><strong>Muestra conceptual no oficial.</strong> Preparada por MenúListo con información pública; productos, precios y disponibilidad deben ser confirmados por el negocio.</div>
+  <header><div class="brand">DARUMA</div><div class="chip">MENÚ MÓVIL · CONCEPTO</div></header>
+  <main>
+    <section class="hero"><div class="eyebrow">Cocina japonesa desde 1974</div><h1>Elige fácil.<br>Disfruta Daruma.</h1><p class="lead">Una propuesta de carta rápida para celular: categorías claras, descripciones breves y un acceso directo al canal de pedidos de cada sucursal.</p></section>
+    <nav aria-label="Categorías"><a href="#entradas">Entradas</a><a href="#sushi">Sushi</a><a href="#chirashi">Chirashi</a><a href="#teppanyaki">Teppanyaki</a></nav>
+    <section id="entradas"><h2>Para empezar</h2><div class="grid">
+      <article class="item"><h3>Sol Naciente</h3><p>Tortilla de arroz con salmón o cangrejo, queso y vegetales, acompañada de salsa dulce picosita.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Gyoza</h3><p>Cinco ravioles japoneses rellenos de carne y verduras.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Won Ton</h3><p>Ravioles fritos rellenos de pasta Tampico.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Súper Ebi Fil</h3><p>Camarón capeado relleno con queso crema.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+    </div></section>
+    <section id="sushi"><h2>Nigiri sushi</h2><div class="grid">
+      <article class="item"><h3>Ebi</h3><p>Camarón.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Hamachi</h3><p>Cola amarilla.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Ika</h3><p>Calamar.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Ikura</h3><p>Hueva de salmón.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+    </div></section>
+    <section id="chirashi"><h2>Chirashi</h2><div class="grid">
+      <article class="item"><h3>Normal</h3><p>Siete piezas: callo, atún, robalo, pulpo, camarón, salmón y huevo.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Especial</h3><p>Nueve piezas con cangrejo y masago.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+    </div></section>
+    <section id="teppanyaki"><h2>Teppanyaki</h2><div class="grid">
+      <article class="item"><h3>Filete</h3><p>Corte preparado en plancha.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Rib eye Angus</h3><p>Corte importado preparado en plancha.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Atún</h3><p>Pescado preparado al momento.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+      <article class="item"><h3>Espárragos</h3><p>Vegetales preparados en plancha.</p><span class="price">PRECIO POR CONFIRMAR</span></article>
+    </div></section>
+    <div class="cta"><span>Botón de pedido por WhatsApp en la versión aprobada</span></div>
+    <p class="fine">La versión final puede incluir precios vigentes, sucursales, horarios y un QR listo para imprimir.</p>
+  </main>
+  <footer>Muestra gratuita de MenúListo CDMX · Sin afiliación oficial con Daruma</footer>
+</body>
+</html>
