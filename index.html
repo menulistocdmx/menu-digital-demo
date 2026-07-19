@@ -9,6 +9,34 @@
     header{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:850;color:var(--navy)}.pill{font-size:13px;background:var(--sky);padding:7px 11px;border-radius:999px;color:var(--blue)}
     .hero{padding:65px 24px 46px;text-align:center;background:linear-gradient(180deg,#fff,var(--sky));max-width:none}.hero>div{max-width:780px;margin:auto}
     h1{font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.045em;color:var(--navy);margin:0}.lead{font-size:19px;max-width:660px;margin:22px auto}
+    .price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:14px;font-weight:500}.risk{margin:8px 0 0;color:var(--green);font-weight:800}.cta{display:inline-block;margin-top:12px;padding:15px 22px;background:var(--green);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;box-shadow:0 10px 25px #18a66a33}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:46px 0}.card{padding:24px;border:1px solid #d9e2ec;border-radius:17px}.icon{font-size:28px}.card h2{font-size:18px;color:var(--navy)}
+    .demo{background:var(--navy);color:#fff;border-radius:24px;padding:35px;margin:30px 0}.demo h2{font-size:30px;margin-top:0}.demo a{color:#9fcdff}.steps{counter-reset:s}.step{display:grid;grid-template-columns:42px 1fr;gap:12px;margin:18px 0}.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}.step b{color:var(--navy)}
+    footer{text-align:center;color:#829ab1;font-size:13px}@media(max-width:680px){.grid{grid-template-columns:1fr}.hero{padding-top:42px}}
+  </style>
+</head>
+<body>
+  <header><span class="brand">MenúListo CDMX</span><span class="pill">Entrega el mismo día</span></header>
+  <section class="hero"><div><h1>Tu menú, claro y listo para pedir</h1><p class="lead">Una página rápida para celular, código QR y botón directo al canal de pedidos de tu negocio. Sin aplicaciones, sin comisión por pedido y sin mensualidad.</p><div class="price">$199 MXN <small>precio de lanzamiento · pago único</small></div><p class="risk">Muestra personalizada gratis · pagas únicamente al aprobar</p><a class="cta" href="mailto:menulistocdmx@outlook.com?subject=Quiero%20mi%20men%C3%BA%20digital">Quiero mi menú digital</a></div></section>
+  <main>
+    <section class="grid"><article class="card"><div class="icon">📱</div><h2>Hecho para celular</h2><p>Productos, precios y categorías fáciles de consultar.</p></article><article class="card"><div class="icon">💬</div><h2>Pedido por WhatsApp</h2><p>El cliente pasa del menú a la conversación con un toque.</p></article><article class="card"><div class="icon">▦</div><h2>QR listo para imprimir</h2><p>Compártelo en mesas, empaques, redes y mostrador.</p></article></section>
+    <section class="demo"><h2>Mira una muestra real</h2><p>El demo incluye categorías, precios, etiquetas de productos y botón de pedido.</p><a href="demo-menu-qr.html">Abrir menú de demostración →</a></section>
+    <section><h2>Así funciona</h2><div class="step"><p><b>Envías tu información</b><br>Menú o fotos, logo, colores y canal de pedidos.</p></div><div class="step"><p><b>Recibes una primera versión</b><br>Se prepara el mismo día e incluye una ronda de cambios.</p></div><div class="step"><p><b>Compartes el enlace y QR</b><br>El saldo se liquida al aprobar y el menú queda listo para clientes.</p></div></section>
+  </main>
+  <footer>MenúListo CDMX · Oferta de lanzamiento · No incluye fotografía ni redacción extensa</footer>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MenúListo CDMX — Tu menú digital listo hoy</title>
+  <style>
+    :root{--navy:#102a43;--blue:#1769e0;--sky:#eaf3ff;--green:#18a66a;--text:#334e68}*{box-sizing:border-box}
+    body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:#fff}header,main,footer{max-width:920px;margin:auto;padding:24px}
+    header{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:850;color:var(--navy)}.pill{font-size:13px;background:var(--sky);padding:7px 11px;border-radius:999px;color:var(--blue)}
+    .hero{padding:65px 24px 46px;text-align:center;background:linear-gradient(180deg,#fff,var(--sky));max-width:none}.hero>div{max-width:780px;margin:auto}
+    h1{font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.045em;color:var(--navy);margin:0}.lead{font-size:19px;max-width:660px;margin:22px auto}
     .price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:14px;font-weight:500}.cta{display:inline-block;margin-top:12px;padding:15px 22px;background:var(--green);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;box-shadow:0 10px 25px #18a66a33}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:46px 0}.card{padding:24px;border:1px solid #d9e2ec;border-radius:17px}.icon{font-size:28px}.card h2{font-size:18px;color:var(--navy)}
     .demo{background:var(--navy);color:#fff;border-radius:24px;padding:35px;margin:30px 0}.demo h2{font-size:30px;margin-top:0}.demo a{color:#9fcdff}.steps{counter-reset:s}.step{display:grid;grid-template-columns:42px 1fr;gap:12px;margin:18px 0}.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}.step b{color:var(--navy)}
