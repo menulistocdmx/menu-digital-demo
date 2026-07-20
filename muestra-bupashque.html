@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Muestra conceptual — Bupashque</title>
+  <style>
+    :root{--plum:#55213f;--rose:#d65b76;--cream:#fff8ef;--ink:#2b1e28;--muted:#756773;--card:#fff;--line:#ead9df}
+    *{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+    .notice{padding:10px 16px;text-align:center;background:#fff0b8;border-bottom:1px solid #e7cf73;font-size:13px}header,main,footer{max-width:780px;margin:auto;padding:22px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:14px}.brand{font-size:22px;font-weight:950;letter-spacing:.08em}.chip{border:1px solid #dcaabd;color:var(--plum);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:850}
+    .hero{padding:38px 0 26px}.eyebrow{color:var(--rose);font-size:13px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}h1{font-size:clamp(42px,10vw,72px);line-height:.96;letter-spacing:-.05em;margin:10px 0 18px}.lead{max-width:620px;color:var(--muted);font-size:18px}
+    nav{display:flex;gap:9px;overflow:auto;padding:3px 0 18px}nav a{white-space:nowrap;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-weight:750;font-size:13px}
+    h2{font-size:26px;margin:30px 0 12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden}.visual{min-height:110px;display:grid;place-items:center;font-size:46px;background:linear-gradient(135deg,#f5bfd0,#ffe2b6)}.card:nth-child(2) .visual{background:linear-gradient(135deg,#d5b8ef,#fac1d1)}.card:nth-child(3) .visual{background:linear-gradient(135deg,#ffd9a5,#f4b6cf)}.copy{padding:18px}.copy h3{margin:0 0 5px;font-size:20px}.copy p{margin:0;color:var(--muted);font-size:14px}.price{display:block;margin-top:14px;color:var(--plum);font-size:12px;font-weight:900}.features{margin:10px 0 0;padding-left:19px;color:var(--muted);font-size:14px}.features li{margin:5px 0}
+    .extras{display:grid;gap:9px}.extra{display:flex;justify-content:space-between;gap:18px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:14px}.extra strong:last-child{color:var(--rose)}
+    .cta{position:sticky;bottom:12px;display:flex;justify-content:center;margin:32px 0 8px}.cta span{background:var(--plum);color:#fff;padding:15px 20px;border-radius:14px;font-weight:900;box-shadow:0 12px 28px #55213f35}.fine,footer{text-align:center;color:var(--muted);font-size:12px}footer{padding-bottom:42px}
+    @media(max-width:580px){.grid{grid-template-columns:1fr}.hero{padding-top:24px}header{align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="notice"><strong>Muestra conceptual no oficial.</strong> Preparada por MenúListo con información pública; paquetes, precios, disponibilidad y condiciones deben ser confirmados por Bupashque.</div>
+  <header><div class="brand">BUPASHQUE</div><div class="chip">CATÁLOGO MÓVIL · CONCEPTO</div></header>
+  <main>
+    <section class="hero"><div class="eyebrow">Event agency · CDMX</div><h1>Tu mesa ideal,<br>sin enredos.</h1><p class="lead">Una propuesta para comparar paquetes, inclusiones y extras desde el celular antes de pedir una cotización personalizada.</p></section>
+    <nav aria-label="Secciones"><a href="#paquetes">Paquetes</a><a href="#incluye">Qué incluye</a><a href="#extras">Extras</a></nav>
+    <section id="paquetes"><h2>Elige tu experiencia</h2><div class="grid">
+      <article class="card"><div class="visual">🍬</div><div class="copy"><h3>Mesa Básica</h3><p>Decoración con los colores del evento y elementos disponibles de Bupashque.</p><ul class="features"><li>Servicio continuo de 4 horas</li><li>Decoración de contenedores</li><li>Montaje y desmontaje</li></ul><span class="price">PRECIO POR COTIZAR</span></div></article>
+      <article class="card"><div class="visual">✨</div><div class="copy"><h3>Mesa Deluxe</h3><p>Presentación temática con detalles personalizados para la persona festejada.</p><ul class="features"><li>Servicio continuo de 5 horas</li><li>Backdrop y decoración temática</li><li>Cajas, bolsas y contenedores personalizados</li></ul><span class="price">PRECIO POR COTIZAR</span></div></article>
+      <article class="card"><div class="visual">🧁</div><div class="copy"><h3>Dulces + Postres</h3><p>Opción combinada para eventos que buscan variedad dulce en un solo montaje.</p><ul class="features"><li>Selección según número de personas</li><li>Cristalería, bases, pinzas y servilletas</li><li>Bolsitas o conos para autoservicio</li></ul><span class="price">PRECIO POR COTIZAR</span></div></article>
+    </div></section>
+    <section id="incluye"><h2>Incluido en el montaje</h2><div class="extras"><div class="extra"><strong>Servicio personalizado</strong><span>Según evento</span></div><div class="extra"><strong>Montaje y desmontaje</strong><span>CDMX*</span></div><div class="extra"><strong>Decoración y contenedores</strong><span>Según paquete</span></div></div></section>
+    <section id="extras"><h2>Extras publicados</h2><div class="extras"><div class="extra"><strong>Hora adicional</strong><strong>$250 MXN</strong></div><div class="extra"><strong>Desmontaje al día siguiente</strong><strong>$500 MXN</strong></div><div class="extra"><strong>Transportación</strong><strong>POR COTIZAR</strong></div></div></section>
+    <div class="cta"><span>Botón de cotización por WhatsApp en la versión aprobada</span></div>
+    <p class="fine">*La versión final puede resumir condiciones, integrar precios vigentes y generar un QR listo para eventos y redes sociales.</p>
+  </main>
+  <footer>Muestra gratuita de MenúListo CDMX · Sin afiliación oficial con Bupashque</footer>
+</body>
+</html>
