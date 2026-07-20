@@ -12,6 +12,41 @@
     .price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:14px;font-weight:500}.risk{margin:8px 0 0;color:var(--green);font-weight:800}.cta{display:inline-block;margin-top:12px;padding:15px 22px;background:var(--green);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;box-shadow:0 10px 25px #18a66a33}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:46px 0}.card{padding:24px;border:1px solid #d9e2ec;border-radius:17px}.icon{font-size:28px}.card h2{font-size:18px;color:var(--navy)}
     .demo{background:var(--navy);color:#fff;border-radius:24px;padding:35px;margin:30px 0}.demo h2{font-size:30px;margin-top:0}.demo a{color:#9fcdff}.steps{counter-reset:s}.step{display:grid;grid-template-columns:42px 1fr;gap:12px;margin:18px 0}.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}.step b{color:var(--navy)}
+    .proof{margin:52px 0}.proof h2{font-size:32px;color:var(--navy);margin-bottom:8px}.proof>p{max-width:700px}.samples{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}.sample{display:flex;min-height:190px;flex-direction:column;justify-content:space-between;padding:22px;border:1px solid #d9e2ec;border-radius:18px;text-decoration:none;color:var(--text);background:linear-gradient(145deg,#fff,#f4f8fc);transition:.15s transform,.15s box-shadow}.sample:hover{transform:translateY(-3px);box-shadow:0 12px 28px #102a4317}.sample b{font-size:20px;color:var(--navy)}.sample small{display:block;color:#627d98;margin-top:7px}.sample span{color:var(--blue);font-weight:800}.closing{text-align:center;margin:48px 0;padding:34px 20px;background:var(--sky);border-radius:22px}.closing h2{color:var(--navy);font-size:30px;margin:0 0 8px}.disclaimer{font-size:12px;color:#829ab1;margin-top:14px}
+    footer{text-align:center;color:#829ab1;font-size:13px}@media(max-width:680px){.grid,.samples{grid-template-columns:1fr}.hero{padding-top:42px}}
+  </style>
+</head>
+<body>
+  <header><span class="brand">MenúListo CDMX</span><span class="pill">Entrega el mismo día</span></header>
+  <section class="hero"><div><h1>Tu menú, claro y listo para pedir</h1><p class="lead">Una página rápida para celular, código QR y botón directo al canal de pedidos de tu negocio. Sin aplicaciones, sin comisión por pedido y sin mensualidad.</p><div class="price">$199 MXN <small>precio de lanzamiento · pago único</small></div><p class="risk">Muestra personalizada gratis · pagas únicamente al aprobar</p><a class="cta" href="mailto:menulistocdmx@outlook.com?subject=Quiero%20mi%20men%C3%BA%20digital">Quiero mi menú digital</a></div></section>
+  <main>
+    <section class="grid"><article class="card"><div class="icon">📱</div><h2>Hecho para celular</h2><p>Productos, precios y categorías fáciles de consultar.</p></article><article class="card"><div class="icon">💬</div><h2>Pedido por WhatsApp</h2><p>El cliente pasa del menú a la conversación con un toque.</p></article><article class="card"><div class="icon">▦</div><h2>QR listo para imprimir</h2><p>Compártelo en mesas, empaques, redes y mostrador.</p></article></section>
+    <section class="demo"><h2>Mira una muestra real</h2><p>El demo incluye categorías, precios, etiquetas de productos y botón de pedido.</p><a href="demo-menu-qr.html">Abrir menú de demostración →</a></section>
+    <section class="proof"><h2>Ejemplos adaptados a distintos negocios</h2><p>No todos necesitan un menú de restaurante. También organizamos paquetes, presentaciones o capacidades para que el cliente compare y cotice desde su teléfono.</p><div class="samples">
+      <a class="sample" href="muestra-bupashque.html"><div><b>Eventos</b><small>Paquetes, inclusiones y extras en una vista clara.</small></div><span>Ver concepto Bupashque →</span></a>
+      <a class="sample" href="muestra-baztan.html"><div><b>Productos</b><small>Sabores y presentaciones para hogar o restaurante.</small></div><span>Ver concepto Baztán →</span></a>
+      <a class="sample" href="muestra-limusinas-del-centro.html"><div><b>Servicios</b><small>Opciones organizadas por capacidad para cotizar.</small></div><span>Ver concepto Limusinas →</span></a>
+    </div><p class="disclaimer">Son muestras conceptuales no oficiales creadas con información pública. Cada negocio debe aprobar contenido, precios y disponibilidad antes de usar una versión final.</p></section>
+    <section><h2>Así funciona</h2><div class="step"><p><b>Envías tu información</b><br>Menú o fotos, logo, colores y canal de pedidos.</p></div><div class="step"><p><b>Recibes una primera versión</b><br>Se prepara el mismo día e incluye una ronda de cambios.</p></div><div class="step"><p><b>Compartes el enlace y QR</b><br>El saldo se liquida al aprobar y el menú queda listo para clientes.</p></div></section>
+    <section class="closing"><h2>¿Quieres ver tu negocio así?</h2><p>Solicita una muestra personalizada sin costo y decide después de verla.</p><a class="cta" href="mailto:menulistocdmx@outlook.com?subject=Quiero%20mi%20muestra%20personalizada&body=Negocio%3A%0ACiudad%3A%0AEnlace%20o%20redes%3A">Pedir muestra gratis</a></section>
+  </main>
+  <footer>MenúListo CDMX · Oferta de lanzamiento · No incluye fotografía ni redacción extensa</footer>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MenúListo CDMX — Tu menú digital listo hoy</title>
+  <style>
+    :root{--navy:#102a43;--blue:#1769e0;--sky:#eaf3ff;--green:#18a66a;--text:#334e68}*{box-sizing:border-box}
+    body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:#fff}header,main,footer{max-width:920px;margin:auto;padding:24px}
+    header{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:850;color:var(--navy)}.pill{font-size:13px;background:var(--sky);padding:7px 11px;border-radius:999px;color:var(--blue)}
+    .hero{padding:65px 24px 46px;text-align:center;background:linear-gradient(180deg,#fff,var(--sky));max-width:none}.hero>div{max-width:780px;margin:auto}
+    h1{font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.045em;color:var(--navy);margin:0}.lead{font-size:19px;max-width:660px;margin:22px auto}
+    .price{font-size:30px;font-weight:900;color:var(--navy)}.price small{font-size:14px;font-weight:500}.risk{margin:8px 0 0;color:var(--green);font-weight:800}.cta{display:inline-block;margin-top:12px;padding:15px 22px;background:var(--green);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;box-shadow:0 10px 25px #18a66a33}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:46px 0}.card{padding:24px;border:1px solid #d9e2ec;border-radius:17px}.icon{font-size:28px}.card h2{font-size:18px;color:var(--navy)}
+    .demo{background:var(--navy);color:#fff;border-radius:24px;padding:35px;margin:30px 0}.demo h2{font-size:30px;margin-top:0}.demo a{color:#9fcdff}.steps{counter-reset:s}.step{display:grid;grid-template-columns:42px 1fr;gap:12px;margin:18px 0}.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}.step b{color:var(--navy)}
     footer{text-align:center;color:#829ab1;font-size:13px}@media(max-width:680px){.grid{grid-template-columns:1fr}.hero{padding-top:42px}}
   </style>
 </head>
